@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nav7 {
+  padding-top: 40px;
+}
+.nav8 {
+  justify-content: end;
+  align-items: end;
+  text-align: end;
+  display: flex;
+  padding-top: 62px;
+}
+
+.products-section {
+  padding: 70px 0;
+}
+.products__cards {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.products__card {
+  width: 400px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px;
+  transition: 0.3s;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products__card:hover {
+    transition: all .4s linear;
+  box-shadow: 2px 2px 30px rgba(167, 167, 167, 0.463);
+}
+.card-hero-img img {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 240px;
+  height: 150px;
+  object-fit: contain;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.cards-products {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.products__card h2{
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.products__card h6{
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #9c9c9c;
+  padding-bottom: 10px;
+}
+
+.nav-link5{
+    padding-top: 50px;
+}
