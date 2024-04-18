@@ -55,6 +55,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .products__card h2{

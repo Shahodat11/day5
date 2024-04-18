@@ -6,7 +6,10 @@ import notebook from '../images/notebook.png'
 import galaxy from '../images/galaxy.png'
 import watch from '../images/watch.png'
 import HomeAppllancess from '../homeAppllancess/HomeAppllancess'
-import foto from '../images/header.png'
+import img from '../images/bc-image.avif'
+import TVimg from '../images/TV-img.webp'
+import Appimg from '../images/appliances-img.webp'
+import sustainabilityImg from '../images/sustainability-img.webp'
 
 function Apii() {
  const data = [
@@ -57,6 +60,9 @@ let mapCard = data?.map((products) => (
   </div>
 ));
 let text = "Mobile & Computing"
+let title = "Galaxy S24 Ultra"
+let price = "Get up to $750 trade-in credit and $75 instant Samsung Credit with participating carriers."
+let btn = "Buy now"
   return (
     <>
         <div className="container">
@@ -73,8 +79,29 @@ let text = "Mobile & Computing"
       </div>
     </div>
     <HomeAppllancess 
-    nav={text}
-    url={foto}/>
+    btn = {btn}
+    price = {price}
+    title = {title}
+    nav = {text}
+    url = {img}/>
+    <HomeAppllancess 
+    btn = {btn}
+    price = {"Buy the Frame, get a Customizable Bezel on us."}
+    title = {"Buy. Bezel. Beauty."}
+    nav = {"TV & Audio"}
+    url = {TVimg}/>
+    <HomeAppllancess 
+    btn = {"Pre-order"}
+    price = {"New Bespoke Al Appliances"}
+    title = {"Buy. Bezel. Beauty."}
+    nav = {"Home Appliances"}
+    url = {Appimg}/>
+    <HomeAppllancess 
+    btn = {"Learn more"}
+    price = {"Get refurbished Certified Re-Newed smartphone with the features"}
+    title = {"New phone, less waste"}
+    nav = {"Sustainability"}
+    url = {sustainabilityImg}/>
     </>
   )
 }

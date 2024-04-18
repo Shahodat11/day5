@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 .banner {
-    height: 400px;
+    height: 800px;
     padding: 50px;
     text-align: center;
-    border: 1px solid red;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+h1{
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    margin-top: 530px;
+    padding-top: 5px;
+}
+
+p{
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+button{
+    font-family: "Roboto Condensed";
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+    padding: 10px 24px 11px 24px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #898888;
+    border: 2px solid #898888;
+    transition: all .4s linear;
 }
